@@ -14,6 +14,7 @@
 
 [Sources]
   BootManager.c
+  XnuLoader.c
   KeyCallback.c
 
 [Packages]
@@ -37,6 +38,8 @@
   BootGraphicsLib
   DevicePathLib
   PrintLib
+  BaseLib
+  BaseMemoryLib
 
 [Pcd]
   gEfiMdePkgTokenSpaceGuid.PcdPlatformBootTimeOut
@@ -48,3 +51,5 @@
   gKeypadDeviceProtocolGuid
   gEfiGraphicsOutputProtocolGuid
   gEfiSimpleTextInputExProtocolGuid
+  gEfiBlockIoProtocolGuid
+  gEfiPartitionInfoProtocolGuid

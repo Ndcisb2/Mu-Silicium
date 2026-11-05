@@ -36,7 +36,7 @@
   # Firmware Details
   #
   gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"4.0"
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"Project Silicium"
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"HakiOS"
 
   #
   # Memory
